@@ -4,3 +4,12 @@ function writeCards(arr, title){
     return `Thank you, ${arr[i]}, for the wonderful ${title} gift!`
   }
 }
+
+
+function countDown(num){
+  let i = num;
+  while (i >= 0){
+    console.log(i)
+    i--
+  }
+}
